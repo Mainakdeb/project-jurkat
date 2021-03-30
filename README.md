@@ -24,5 +24,9 @@ I trained 10 models, on 10 seperate folds of data. Blending the inferences of th
 <img src="images/conf_matrix_1.png" width=600 />
 
 
-
+## UMAP Projection:
 The trained model was successfully able to capture the gradual nature of the process, even though the labels were not gradual, the UMAP projection of the predictions (on a test set) highlights this outcome.
+
+<img src="images/umap_1.png" width=400 />
+
+
