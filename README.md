@@ -11,7 +11,7 @@ The aim of this project was to train a PyTorch based Deep Convolutional neural n
 
 <img src="images/jurkat_classes.png" width=500 />
 
-The dataset contains 3 folders, of images belonging to 3 different classes. The number of samples belonging to each class was not balanced, so I had to oversample the minority classes.
+The dataset contains 3 folders of images belonging to 3 different classes. The number of samples belonging to each class was not balanced, so I had to oversample the minority classes.
 
 <img src="images/pie_combined.png" width=500 />
 
