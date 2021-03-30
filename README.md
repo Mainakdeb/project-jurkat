@@ -25,8 +25,17 @@ I trained 10 models, on 10 seperate folds of data. Blending the inferences of th
 
 
 ## UMAP Projection:
-The trained model was successfully able to capture the gradual nature of the process, even though the labels were not gradual, the UMAP projection of the predictions (on a test set) highlights this outcome.
+
+* Each point represents an input image from the hold-out dataset (containing 2503 points)
+* The color of each point corresponds to the predicted class.
 
 <img src="images/umap_1.png" width=400 />
+
+The trained model was successfully able to capture the gradual nature of the process, even though the labels were not gradual, the UMAP projection of the predictions (on a test set) highlights this outcome.
+
+
+
+
+
 
 
