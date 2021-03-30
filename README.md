@@ -16,8 +16,12 @@ The dataset contains 3 folders of images belonging to 3 different classes. The n
 <img src="images/pie_combined.png" width=500 />
 
 
-The images of different classes were stored in different folders already, instead of using ```torchvision.datasets.ImageFolder```, I decided to generate a csv file with columns containing image paths and their corresponding classes. This also enabled me to implement K-Fold cross validation later down the line, but this came with the added trouble of defining a custom dataset class and a custom dataloader too, which I did eventually.
+The images of different classes were stored in different folders already, instead of using ```torchvision.datasets.ImageFolder```, I decided to generate a csv file with columns containing image paths and their corresponding classes. This also enabled me to implement K-Fold cross validation later down the line, but this came with the added trouble of defining a custom dataset class and a custom dataloader, which I did eventually.
 
+## Inference Blending:
+I trained 10 models, on 10 seperate folds of data. Blending the inferences of these 10 models led to a better overall accuracy, the results are highlighted below. 
+
+<img src="images/conf_matrix_1.png" width=600 />
 
 
 
