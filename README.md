@@ -8,6 +8,7 @@ PyTorch + images of human T lymphocyte cells (Jurkat cells)
 The aim of this project was to train a PyTorch based Deep Convolutional neural network to classify cell cycle stages of jurkat cells from image data, and then gain insights on the cell cycle process using the trained model and UMAP projections of the predictions.
 
 ## The Data:
+[Download Data](https://bbbc.broadinstitute.org/BBBC048)
 
 <img src="images/jurkat_classes.png" width=500 />
 
